@@ -1,0 +1,32 @@
+{
+  "name": "stock-spider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "csvtojson": "^2.0.10",
+    "iconv-lite": "^0.6.2",
+    "lodash": "^4.17.19",
+    "node-xlsx": "^0.15.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "superagent": "^5.3.1",
+    "superagent-charset": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
